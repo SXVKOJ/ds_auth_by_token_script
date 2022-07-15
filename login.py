@@ -4,8 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 TOKEN = ''
 
-PATH_TO_DRIVER = 'C:\\Users\\di251\\Documents\\chromedriver\\chromedriver.exe'
-
 JS_CODE = '''
 function login(token) {
     setInterval(() => {
